@@ -1,0 +1,116 @@
+     * {
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          text-decoration: none;
+         box-sizing: border-box;  
+     }
+
+img{
+ max-width: 700px;
+ height: auto;
+ border-radius: 10px
+}
+a :hover
+{
+     text-decoration: underline;
+     color: yellow;
+
+}
+
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #f8f9fa;
+     color: #343a40;
+     height: 1.6em;
+
+}
+
+     nav ul {
+          list-style: none;
+          padding: 0;
+          gap: 1em;
+          display: flex;
+          justify-content: center;
+          
+     }
+
+    nav a {
+          text-decoration: none;
+          color: #007bff;
+          font-weight: bold;
+          padding: 0.5em 1em;
+          border: 2px solid #007bff;
+    }
+     nav a:hover {
+          background-color: #007bff;
+          color: white;
+     }
+
+     section {
+          margin-bottom: 2em;
+     }
+
+     footer {
+          margin-top: 2em;
+          font-size: 0.9em;
+          color: #555;
+     }
+     h1 {
+     font-size: 2.5em;
+     color: #343a40;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+}
+
+h3 {
+     color: #4a4a4a;
+     border-left: 4px solid darkgoldenrod;
+     padding-left: 10px;
+
+}
+
+header {
+     display: flex;
+     justify-content: center;
+     /* PRA CENTRALIZAR HORIZONTALMENTE */
+     align-items: center;
+     /* PRA CENTRALIZAR VERTICALMENTE */
+     height: 100px;
+     background-color: #f0f0f0;
+     border: 5px solid #ccc;
+
+}
+
+.descricao {
+     font-style: italic;
+     padding: 20px 25px;
+     background-color: #49F5E3;
+     color: white;
+     text-align: center;
+     font-weight: 500;
+     border-radius: 5px;
+     box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+
+}
+nav{
+     text-align: center;
+     margin: 0 auto;
+}
+
+/* Para listas */
+ul,
+li {
+
+     text-align: left;
+     list-style-type: none;
+
+}
+
+li>a:hover {
+     text-decoration: line-through;
+}
+
+li>a:focus {
+     background-color: yellow;
+}
+
